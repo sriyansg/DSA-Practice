@@ -1,0 +1,11 @@
+{
+    
+    "files.exclude": {
+        "**/*.exe": true,
+        
+    },
+    "python.formatting.provider": "autopep8",
+    "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve",
+    "cmake.configureOnOpen": false,
+    "python.analysis.typeCheckingMode": "basic"
+}
