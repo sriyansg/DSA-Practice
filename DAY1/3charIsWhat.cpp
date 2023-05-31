@@ -19,3 +19,11 @@ int main()
  
     return 0;
 }
+
+// prime or no
+// reverse a num
+// prime between Limit
+// fibonacii
+// factorial
+// binary coeff
+// Pascal triangle
