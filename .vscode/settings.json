@@ -9,6 +9,7 @@
     "cmake.configureOnOpen": false,
     "python.analysis.typeCheckingMode": "basic",
     "files.associations": {
-        "random": "cpp"
+        "random": "cpp",
+        "ostream": "cpp"
     }
 }
