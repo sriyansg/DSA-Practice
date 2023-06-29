@@ -27,7 +27,25 @@ int main()
   s.pop_back();
   cout<<s<<endl;
 
-  
+  // Lenght of string
+  cout<<"5"<<endl;
+  s="lengtho of tisafa";
+  cout<<s.length()<<endl;
+
+  // begin() This function returns an "iterator" to the beginning of the string.
+  // end() For end of string
+
+  // Swapping Strings
+  cout<<"6"<<endl;
+  s="Hello";
+  string s2="Kall";
+  swap(s,s2);
+  cout<<s<<endl;
+  // OP: kall
+
+  //
+
+
 
 
 
