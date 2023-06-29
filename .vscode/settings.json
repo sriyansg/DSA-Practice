@@ -2,6 +2,10 @@
     
     "files.exclude": {
         "**/*.exe": true,
+        "**/*.bin": true,
+        "**/*.cph": true,
+
+
         
     },
     "python.formatting.provider": "autopep8",

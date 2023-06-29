@@ -7,36 +7,29 @@ int main()
     cin >> t;
     while (t > 0)
     {
-        int a,b,c;
-        int a2,b2,c2;
-        int s1=0;
-        int s2=0;
-        cin>>a>>b>>c>>a2>>b2>>c2;
-        if(a>a2)
+        int n;
+        cin>>n;
+        int arr[n];
+        int great=INT_MAX;
+        int nos;
+        int count=0;
+        for(int i=0;i<n;i++)
         {
-            s1++;
-        }else{
-            s2++;
+            cin>>nos;
+            if(nos<great)
+            {
+                great=nos;
+            }
+            count=count+nos;
         }
-        if(b>b2){
-            s1++;
-        }
-        else{
-            s2++;
-        }
-        if(c>c2){
-            s1++;
-        }
-        else{
-            s2++;
-        }
-        if(s1>s2){
-            cout<<"A"<<endl;
+        if(count!=0)
+        {
+            count=count-great;
+            cout<<count<<endl;
         }
         else{
-            cout<<"B"<<endl;
+            cout<<count<<endl;
         }
-
 
         t--;
     }
