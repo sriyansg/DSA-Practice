@@ -43,7 +43,15 @@ int main()
   cout<<s<<endl;
   // OP: kall
 
-  //
+  // Concat
+  cout<<"7"<<endl;
+  char ch[20]="Helo";
+  char th[20]="mello";
+  strcat(ch,th);
+  cout<<ch<<endl;
+
+
+  
 
 
 

@@ -19,12 +19,11 @@ int main()
     cout << "now the contents are: ";
     for (int a = 0; a < n.size(); a++)
     {
-        cout<<n[a]<<" ";
-        cout<<endl;
+        cout << n[a] << " ";
+        cout << endl;
     }
-    n.insert(n.begin(),7);
-    cout<<"First Element is: "<<n[0]<<endl;
+    n.insert(n.begin(), 7);
+    cout << "First Element is: " << n[0] << endl;
 
-    
     return 0;
 }
