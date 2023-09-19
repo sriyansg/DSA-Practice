@@ -14,7 +14,8 @@
     "python.analysis.typeCheckingMode": "basic",
     "files.associations": {
         "random": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iostream": "cpp"
     },
     "cph.general.onceMaintainerMessage": false
 }
