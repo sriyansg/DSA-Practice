@@ -1,24 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
-// Maximum subarray
-int main()
+// longest subsequence sum
+int longsubsc(int arr[],int size)
 {
-  int arr[] = {3, 1, 6, 2, -3, 4};
-  int len = sizeof(arr) / sizeof(arr[0]);
-  int max_sofar=INT_MIN;
-  int max_ending=0;
-  for (int i = 0; i < len; i++)
+  int maxsofar=INT_MIN, maxending=0;
+  for(int i=0;i<size;i++)
   {
-    max_ending=max_ending+arr[0];
-    if(max_sofar<max_ending)
+    maxending=maxending+arr[i];
+    if(maxsofar<maxending)
     {
-      max_sofar=max_ending;
-    } 
-    if(max_ending<0)
+      maxsofar=maxending;
+    }
+    if(maxending<0)
     {
-      max_ending=0;
+      maxending=0;
     }
   }
-  cout<<max_sofar;
+  return maxsofar;
+}
+int main() {
+ 
+  int arr[]={3,2,-3,1,2,-5,8,-2,-6,4,3};
+  int len=sizeof(arr)/sizeof(arr[0]);
+  cout<<longsubsc(arr,len);
   return 0;
 }
